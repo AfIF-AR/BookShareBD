@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textViewbookdetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book Details"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="#8e5151"
+        />
+
+    <EditText
+        android:id="@+id/bookname"
+        android:layout_width="match_parent"
+        android:layout_height="55sp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Book Name"
+        android:layout_marginTop="15dp"
+        />
+
+    <EditText
+        android:id="@+id/authorname"
+        android:layout_width="match_parent"
+        android:layout_height="55sp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Author Name"
+        android:layout_marginTop="15dp"
+        />
+
+    <Button
+        android:id="@+id/donate"
+        android:layout_width="match_parent"
+        android:layout_height="55sp"
+        android:text="Donate"
+        android:textSize="26sp"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:background="#7c7676"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>

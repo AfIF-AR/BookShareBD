@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shareactivity"
+    tools:context="com.afifar.user.demo2.ShareActivity"
+    android:orientation="horizontal"
+    >
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="172dp"
+        android:layout_height="177dp"
+        android:text="pick a book"
+        android:textSize="25sp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:background="#fa09164b"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="172dp"
+        android:layout_height="177dp"
+        android:background="#4e5053"
+        android:text="share a book"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+</LinearLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.macbookproretina.loginpage.Home_Activity"
+    android:orientation="vertical"
+    >
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/imge"
+
+        />
+
+
+    <Button
+        android:id="@+id/btnDonate"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:drawableLeft="@drawable/donate"
+        android:text="Donate Book"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+
+
+        />
+
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:drawableLeft="@drawable/share_book"
+        android:text="Share Book"
+        android:textAllCaps="false"
+        android:onClick="ShareOnclick"
+
+        />
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/btnEvents"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:drawableLeft="@drawable/events"
+            android:text="Events"
+            android:textAllCaps="false"
+
+
+            />
+
+        <Button
+            android:id="@+id/btnBeMember"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:drawableLeft="@drawable/be_a_member"
+            android:text="Be a Volenteer"
+            android:textAllCaps="false"
+
+
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.afifar.user.demo2.aboutActivity"
+    android:background="#b8c4a7"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share Book BD"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="22dp"
+        android:textColor="#242829"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="About"
+        android:textSize="17sp"
+        android:id="@+id/textView1"
+        android:textColor="#202226"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="25dp"
+        />
+
+    <ScrollView
+        android:id="@+id/SCROLLER_ID"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:fillViewport="true"
+
+            android:scrollbars = "vertical"
+
+            android:text="Every contribution makes a difference.Different organization funded through individual donations and grants from members of affluent families in Bangladesh. Without their support, Consider a used book's true value for a minute. Really! Because they're kind of the perfect reuse item. Whether donating or buying second-hand they hold the same appeal. Books tell of a time but are timeless. They're constructed for repeated use. Their words offer equal power to the first reader and the last. The joy of sharing books is a gift you can give children from the time they are born. The chanting of nursery rhymes, singing of songs, and reading of stories can comfort and entertain even the youngest child.
+Share books because it... Helps create a special bond between parents and children.
+Introduces children to art through the illustrations
+Enhances children's listening skills.
+Introduces children to a wide variety of experiences..
+BookShareBD will help you to come together to make a community to help those under privilege children who can not read a for for being money. We also share books here and we can share out books to help each other ,it might be story book, novel, academic boos etc..
+There is a event content included in out app, you can join in our organization a a volunteer.
+
+©Copyright All right reserved
+Last update 3.11.2017"
+            />
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>
+
+

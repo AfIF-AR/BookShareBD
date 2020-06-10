@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg"
+    tools:context="com.afifar.user.demo2.Home_Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share Book BD"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textColor="#90b3bc"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_marginTop="110dp"
+        android:textColor="#f3f5f5"
+        android:id="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="306dp"
+        android:layout_height="46dp"
+
+
+        android:layout_above="@+id/editText5"
+        android:layout_alignLeft="@+id/editText5"
+        android:layout_alignStart="@+id/editText5"
+        android:layout_marginBottom="50dp"
+        android:alpha=".5"
+        android:background="@drawable/rounded_text"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:drawablePadding="15dp"
+        android:drawableTint="#230808"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="5dp"
+        android:textColor="#ffffff"
+        android:textColorHint="@android:color/white"
+        android:textSize="22sp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="or"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:id="@+id/t1"
+        android:layout_marginBottom="8dp"
+
+        android:layout_above="@+id/btn2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+
+    <Button
+        android:layout_width="306dp"
+        android:layout_height="46dp"
+        android:textAllCaps="false"
+        android:text="Log in"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:drawableTint="#ffffff"
+        android:drawableLeft="@drawable/ic_lock_open_black_24dp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/round_button"
+        android:alpha=".6"
+        android:id="@+id/btn"
+        android:layout_marginBottom="11dp"
+        android:layout_above="@+id/t1"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+
+        android:layout_width="306dp"
+        android:layout_height="46dp"
+        android:inputType="textPassword"
+
+        android:drawablePadding="15dp"
+        android:paddingLeft="5dp"
+        android:drawableTint="#1e1111"
+        android:alpha=".5"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        android:textColorHint="@android:color/white"
+        android:background="@drawable/rounded_text"
+        android:id="@+id/editText5"
+        android:drawableLeft="@drawable/ic_lock_open_black_24dp"
+        android:hint="Password"
+        android:layout_above="@+id/btn"
+        android:layout_alignLeft="@+id/btn"
+        android:layout_alignStart="@+id/btn"
+        android:layout_marginBottom="33dp" />
+
+    <Button
+        android:layout_width="306dp"
+        android:layout_height="46dp"
+        android:textAllCaps="false"
+        android:text="Sign up"
+        android:gravity="center"
+        android:textSize="22sp"
+
+        android:textColor="#ffffff"
+        android:background="@drawable/rounded_button2"
+        android:drawableLeft="@drawable/ic_assignment_ind_black_24dp"
+        android:drawableTint="#091a0e"
+        android:paddingLeft="5dp"
+        android:id="@+id/btn2"
+        android:layout_marginBottom="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/btn"
+        android:layout_alignStart="@+id/btn" />
+</RelativeLayout>
